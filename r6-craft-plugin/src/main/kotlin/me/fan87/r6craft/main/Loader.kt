@@ -1,9 +1,9 @@
-package org.example.r6craft.main
+package me.fan87.r6craft.main
 
 import org.bukkit.command.Command
 import org.bukkit.command.CommandSender
 import org.bukkit.plugin.java.JavaPlugin
-import org.example.r6craft.R6Craft
+import me.fan87.r6craft.R6Craft
 
 class Loader: JavaPlugin() {
 

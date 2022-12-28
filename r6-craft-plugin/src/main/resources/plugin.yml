@@ -1,3 +1,3 @@
 name: R6-Craft
-main: org.example.r6craft.main.Loader
+main: me.fan87.r6craft.main.Loader
 version: ${version}

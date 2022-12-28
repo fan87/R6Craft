@@ -4,7 +4,7 @@ import java.util.Properties
 plugins {
 }
 
-group = "org.example"
+group = "me.fan87"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -35,7 +35,7 @@ tasks {
         val serverPropertiesFile = File(runDir, "server.properties")
 
         jvmArgs("-Xms512M", "-Xmx2G", "-Dlog4j.configurationFile=log4j2.xml")
-        mainClass.set("org.bukkit.craftbukkit.Main")
+        mainClass.set("org.bukkit.craftbukkit.bootstrap.Main")
         classpath(serverJar.absolutePath)
         workingDir(runDir.absolutePath)
         standardInput = System.`in`

@@ -1,13 +1,14 @@
-package org.example.r6craft
+package me.fan87.r6craft
 
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
 import org.bukkit.command.Command
 import org.bukkit.command.CommandSender
 import org.bukkit.plugin.java.JavaPlugin
-import org.example.r6craft.commands.CommandManager
-import org.example.r6craft.config.ConfigManager
-import org.example.r6craft.main.Loader
+import me.fan87.r6craft.commands.CommandManager
+import me.fan87.r6craft.config.ConfigManager
+import me.fan87.r6craft.feature.FeatureManager
+import me.fan87.r6craft.main.Loader
 import java.util.logging.Level
 
 object R6Craft {
@@ -22,6 +23,7 @@ object R6Craft {
     fun onEnable() {
         ConfigManager
         CommandManager
+        FeatureManager
     }
 
     fun onLoad() {

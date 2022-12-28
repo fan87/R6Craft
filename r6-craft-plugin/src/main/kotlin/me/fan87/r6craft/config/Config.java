@@ -1,4 +1,4 @@
-package org.example.r6craft.config;
+package me.fan87.r6craft.config;
 
 public class Config {
     public static String value = "Hello, World!";

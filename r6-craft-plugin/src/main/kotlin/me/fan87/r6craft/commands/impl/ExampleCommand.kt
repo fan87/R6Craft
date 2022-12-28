@@ -1,7 +1,7 @@
-package org.example.r6craft.commands.impl
+package me.fan87.r6craft.commands.impl
 
 import org.bukkit.command.CommandSender
-import org.example.r6craft.commands.Command
+import me.fan87.r6craft.commands.Command
 
 class ExampleCommand: Command("example") {
     override fun execute(sender: CommandSender, alias: String, args: Array<out String>): Boolean {

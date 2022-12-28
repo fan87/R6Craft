@@ -1,11 +1,11 @@
-package org.example.r6craft.commands
+package me.fan87.r6craft.commands
 
 import org.apache.logging.log4j.core.config.plugins.util.ResolverUtil
 import org.bukkit.Bukkit
 import org.bukkit.command.SimpleCommandMap
 import org.bukkit.plugin.SimplePluginManager
-import org.example.r6craft.R6Craft
-import org.example.r6craft.main.Loader
+import me.fan87.r6craft.R6Craft
+import me.fan87.r6craft.main.Loader
 import java.lang.reflect.Modifier
 import java.net.URI
 

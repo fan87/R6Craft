@@ -1,4 +1,4 @@
-package org.example.r6craft.commands
+package me.fan87.r6craft.commands
 
 import org.bukkit.ChatColor
 import org.bukkit.command.Command

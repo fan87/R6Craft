@@ -1,6 +1,6 @@
-package org.example.r6craft.config
+package me.fan87.r6craft.config
 
-import org.example.r6craft.R6Craft
+import me.fan87.r6craft.R6Craft
 import java.lang.reflect.Field
 import java.lang.reflect.Modifier
 

@@ -1,4 +1,4 @@
-package org.example.r6craft.feature
+package me.fan87.r6craft.feature
 
 import org.bukkit.event.Listener
 

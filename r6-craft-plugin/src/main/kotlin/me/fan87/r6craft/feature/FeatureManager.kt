@@ -1,12 +1,12 @@
-package org.example.r6craft.feature
+package me.fan87.r6craft.feature
 
 import org.apache.logging.log4j.core.config.plugins.util.ResolverUtil
 import org.bukkit.Bukkit
-import org.example.r6craft.R6Craft
+import me.fan87.r6craft.R6Craft
 import java.lang.reflect.Modifier
 import java.net.URI
 
-class FeatureManager {
+object FeatureManager {
 
     val features = ArrayList<Feature>()
 
